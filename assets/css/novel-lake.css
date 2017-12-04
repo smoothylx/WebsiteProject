@@ -1,0 +1,610 @@
+
+
+/*/ HEADER /*/
+.novel-page.novel-lake .top-header .image-strip-container{
+	background: #AAB8BC;
+}
+.novel-page.novel-lake .header .header-line:nth-child(odd){
+	background-color: #BCC7C9;
+}
+.novel-page.novel-lake .header .header-line:nth-child(even){
+	background-color: #AAB8BC;
+}
+
+/*/ CLOSING RAILS /*/
+.novel-page.novel-lake .closing-rail:nth-child(11),
+.novel-page.novel-lake .closing-rail:nth-child(10),
+.novel-page.novel-lake .closing-rail:nth-child(8),
+.novel-page.novel-lake .closing-rail:nth-child(7){
+	height: 25vw;
+}
+.novel-page.novel-lake .closing-rail:nth-child(9),
+.novel-page.novel-lake .closing-rail:nth-child(6){
+	height: 45vw;
+}
+.novel-page.novel-lake .closing-rail:nth-child(5),
+.novel-page.novel-lake .closing-rail:nth-child(4),
+.novel-page.novel-lake .closing-rail:nth-child(3),
+.novel-page.novel-lake .closing-rail:nth-child(2),
+.novel-page.novel-lake .closing-rail:nth-child(1){
+	height: 25vw;
+}
+
+
+
+/*/ BIANCONIGLIO /*/
+.product.bianconiglio{
+	margin-top: 22vw;
+	padding: 0 4.44vw;
+}
+
+
+/*/ MAIN IMG /*/
+.main-img-container{
+	height: 54.95vw;
+}
+
+
+/*/ PRODUCTS /*/
+.novel-page.novel-lake .product .product-description{
+	position: absolute;
+}
+.novel-page.novel-lake .product .img-container img{
+	z-index: 3;
+	width: 100%;
+	position: relative;
+}
+/*/ giulia /*/
+.novel-lake .product-giulia{
+	margin-top: 27.7vw;
+}
+.novel-lake .product-giulia .img-container{
+	width: 23.89vw;
+	height: 21.11vw;
+	margin-left: 1.4vw;
+}
+.novel-lake .product-description-giulia{
+	top: 0;
+	left: 50%;
+	
+	-webkit-transform: translate(-40%, -110%);
+	-moz-transform: translate(-40%, -110%);
+	-ms-transform: translate(-40%, -110%);
+	-o-transform: translate(-40%, -110%);
+	transform: translate(-40%, -110%);
+}
+.novel-lake .product-rail-giulia{
+	height: 47.2vw;
+	margin-top: 47.2vw;
+}
+/*/ francy /*/
+.novel-lake .product-francy{
+	margin-top: 11.6vw;
+}
+.novel-lake .product-francy .img-container{
+	width: 20vw;
+	height: 25vw;
+	margin-left: 3.61vw;
+}
+.novel-lake .product-description-francy{
+	top: 0;
+	left: 50%;
+	
+	-webkit-transform: translate(-40%, -30%);
+	-moz-transform: translate(-40%, -30%);
+	-ms-transform: translate(-40%, -30%);
+	-o-transform: translate(-40%, -30%);
+	transform: translate(-40%, -30%);
+}
+.novel-lake .product-rail-francy{
+	height: 47.2vw;
+	margin-top: 32vw;
+}
+/*/ funghetto /*/
+.novel-lake .product-funghetto{
+	margin-top: 39.8vw;
+}
+.novel-lake .product-funghetto .img-container{
+	height: 15vw;
+	width: 14.44vw;
+	margin-left: 2.2vw;
+}
+.novel-lake .product-description-funghetto{
+	top: 0;
+	left: 50%;
+	
+	-webkit-transform: translate(13%, -110%);
+	-moz-transform: translate(13%, -110%);
+	-ms-transform: translate(13%, -110%);
+	-o-transform: translate(13%, -110%);
+	transform: translate(13%, -110%);
+}
+.novel-lake .product-rail-funghetto{
+	height: 50vw;
+	margin-top: 50vw;
+}
+/*/ cr/428 /*/
+.novel-lake .product-cr428{
+	margin-top: -3.33vw;
+}
+.novel-lake .product-cr428 .img-container{
+	width: 18.33vw;
+	height: 33.89vw;
+	margin-left: 5vw;
+}
+.novel-lake .product-description-cr428{
+	top: 50%;
+	left: 71%;
+	
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+.novel-lake .product-rail-cr428{
+	height: 115vw;
+	margin-top: 20vw;
+}
+/*/ sansone /*/
+.novel-lake .product-sansone{
+	margin-top: 2vw;
+}
+
+.novel-lake .product-sansone .img-container{
+	width: 59.44vw;
+	height: 26.11vw;
+}
+.novel-lake .product-description-sansone{
+	top: 0;
+	left: 65%;
+	
+	-webkit-transform: translate(-5%, -110%);
+	-moz-transform: translate(-5%, -110%);
+	-ms-transform: translate(-5%, -110%);
+	-o-transform: translate(-5%, -110%);
+	transform: translate(-5%, -110%);
+}
+.novel-lake .product-rail-sansone{
+	height: 130vw;
+	margin-top: 30.5vw;
+}
+.novel-lake .product-sansone .gabbia{
+	top: 0;
+	left: 0%;
+	z-index: 4 !important;
+	position: absolute !important;
+	width: 11vw !important;
+	
+	-webkit-transform: translate3d(-100%, -85%, 0);
+	-moz-transform: translate3d(-100%, -85%, 0);
+	-ms-transform: translate3d(-100%, -85%, 0);
+	-o-transform: translate3d(-100%, -85%, 0);
+	transform: translate3d(-100%, -85%, 0);
+	
+	-webkit-transition: all 700ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+   	-moz-transition: all 700ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	-ms-transition: all 700ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	-o-transition: all 700ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	transition: all 700ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+}
+.novel-lake .product-sansone.inview .gabbia{
+	left: 60%;
+	
+	-webkit-transition: all 3000ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+   	-moz-transition: all 3000ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	-ms-transition: all 3000ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	-o-transition: all 3000ms cubic-bezier(0.075, 0.820, 0.165, 1.000); 
+	transition: all 3000ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+}
+/*/ alberto /*/
+.novel-lake .product-alberto{
+	margin-top: -5.5vw;
+	width: 100%;
+	padding-left: 4.2vw;
+}
+.novel-lake .product-alberto .img-container{
+	width: 100%;
+	height: 28.33vw;
+}
+.novel-lake .product-alberto .img-container img{
+	width: 100%;
+}
+.novel-lake .product-description-alberto{
+	top: 0;
+	left: 52%;
+	
+	-webkit-transform: translate(0, -110%);
+	-moz-transform: translate(0, -110%);
+	-ms-transform: translate(0, -110%);
+	-o-transform: translate(0, -110%);
+	transform: translate(0, -110%);
+}
+.novel-lake .product-rail-alberto{
+	height: 155vw;
+	margin-top: 38.88vw;
+}
+
+
+
+
+/*/ LAGHETTO /*/
+.novel-lake .laghetto{
+	margin-top: 0;
+	height: 60vw;
+	position: relative;
+}
+.novel-lake .laghetto-strip{
+	height: 100%;
+	overflow: hidden;
+}
+.novel-lake .laghetto-strip .fish{
+	top: 0;
+	left: 50%;
+	position: absolute;
+	
+	-webkit-backface-visibility: visible;
+	-moz-backface-visibility: visible;
+	-ms-backface-visibility: visible;
+	-o-backface-visibility: visible;
+	backface-visibility: visible;
+}
+.novel-lake .laghetto-strip .fish img{
+	width: 100%;
+	height: auto;
+}
+/*/ fish che parte da sinistra /*/
+.novel-lake .laghetto-strip .fish.from-left.start{
+	-webkit-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(0deg);
+	-moz-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(0deg);
+	-ms-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(0deg);
+	-o-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(0deg);
+	transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(0deg);
+}
+body.ie .novel-lake .laghetto-strip .fish.from-left.start{
+	-ms-transform: translate3d(-150%, 0, 0) rotateY(0deg);
+}
+.novel-lake .laghetto-strip .fish.from-left.finish{
+	-webkit-transform: translate3d(5vw, 0, 0) rotateY(0deg);
+	-moz-transform: translate3d(5vw, 0, 0) rotateY(0deg);
+	-ms-transform: translate3d(5vw, 0, 0) rotateY(0deg);
+	-o-transform: translate3d(5vw, 0, 0) rotateY(0deg);
+	transform: translate3d(5vw, 0, 0) rotateY(0deg);
+}
+body.ie .novel-lake .laghetto-strip .fish.from-left.finish{
+	-ms-transform: translate3d(150%, 0, 0) rotateY(0deg);
+}
+
+/*/ fish che parte da destra /*/
+.novel-lake .laghetto-strip .fish.from-right.start{
+	-webkit-transform: translate3d(5vw, 0, 0) rotateY(180deg);
+	-moz-transform: translate3d(5vw, 0, 0) rotateY(180deg);
+	-ms-transform: translate3d(5vw, 0, 0) rotateY(180deg);
+	-o-transform: translate3d(5vw, 0, 0) rotateY(180deg);
+	transform: translate3d(5vw, 0, 0) rotateY(180deg);
+}
+.novel-lake .laghetto-strip .fish.from-right.finish{
+	-webkit-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(180deg);
+	-moz-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(180deg);
+	-ms-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(180deg);
+	-o-transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(180deg);
+	transform: translate3d(calc(-100% - 5vw), 0, 0) rotateY(180deg);
+}
+body.ie .novel-lake .laghetto-strip .fish.from-right.finish{
+	-ms-transform: translate3d(-150%, 0, 0) rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+/*/ BUDDHA /*/
+.novel-lake .buddha-wrapper{
+	z-index: 3;
+	width: 100%;
+	bottom: -7vw;
+	position: absolute;
+}
+.novel-lake .buddha-wrapper .buddha-container{
+	padding: 0 3.33vw;
+}
+.novel-lake .buddha-wrapper .buddha-container img{
+	width: 100%;
+}
+
+
+
+/*/ PRODUCTS BOTTOM /*/
+.novel-page.novel-lake .products-bottom{
+	padding-top: 20.5vw;
+	padding-bottom: 8vw;
+}
+.novel-page.novel-lake .products-bottom h2{
+	margin-bottom: 11vw;
+}
+
+.novel-page.novel-lake .products-block-1 .img-container-block{
+	height: 35.35vw;
+}
+
+.novel-page.novel-lake .products-block-2{
+	margin-top: 11.6vw;
+}
+.novel-page.novel-lake .products-block-2 .img-container-block{
+	height: 45.65vw;
+}
+
+.novel-page.novel-lake .products-block-3{
+	margin-top: 8.33vw;
+}
+.novel-page.novel-lake .products-block-3 .img-container-block{
+	height: 62.40vw;
+}
+
+.novel-page.novel-lake .products-block-4{
+	margin-top: 17.77vw;
+}
+.novel-page.novel-lake .products-block-4 .img-container-block{
+	height: 37.76vw;
+}
+
+.novel-page.novel-lake .products-block-5{
+	margin-top: 16.66vw;
+}
+.novel-page.novel-lake .products-block-5 .img-container-block{
+	height: 37.76vw;
+}
+
+.novel-page.novel-lake .products-block-6{
+	margin-top: 16.66vw;
+}
+.novel-page.novel-lake .products-block-6 .img-container-block{
+	height: 37.76vw;
+}
+
+.novel-page.novel-lake .products-block-7 .img-container-block{
+	height: 50.61vw;
+}
+
+
+
+
+/*/ paolo /*/
+.novel-lake .product-paolo{
+	margin-top: 10.7vw;
+}
+.novel-lake .product-paolo .img-container{
+	width: 19.44vw;
+	height: 9.44vw;
+	margin-left: 3.61vw;
+}
+.novel-lake .product-description-paolo{
+	top: 0;
+	left: 37.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-paolo{
+	height: 22.5vw;
+	margin-top: 27vw;
+}
+/*/ peppino /*/
+.novel-lake .product-peppino{
+	margin-top: 6.66vw;
+}
+.novel-lake .product-peppino .img-container{
+	width: 32.22vw;
+	height: 14.44vw;
+	margin-left: 5.55vw;
+}
+.novel-lake .product-description-peppino{
+	top: 0;
+	left: 42.5%;
+	
+	-webkit-transform: translate(0%, -110%);
+	-moz-transform: translate(0%, -110%);
+	-ms-transform: translate(0%, -110%);
+	-o-transform: translate(0%, -110%);
+	transform: translate(0%, -110%);
+}
+.novel-lake .product-rail-peppino{
+	height: 50vw;
+	margin-top: 19vw;
+}
+/*/ anita maxi /*/
+.novel-lake .product-anita-maxi{
+	margin-top: 16.66vw;
+}
+.novel-lake .product-anita-maxi .img-container{
+	width: 31.11vw;
+	height: 11.11vw;
+	margin-left: 4.44vw;
+}
+.novel-lake .product-description-anita-maxi{
+	top: 0;
+	left: 42.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-anita-maxi{
+	height: 33.5vw;
+	margin-top: 33.5vw;
+}
+/*/ tommy /*/
+.novel-lake .product-tommy{
+	margin-top: 13.66vw;
+}
+.novel-lake .product-tommy .img-container{
+	width: 28.33vw;
+	height: 25.83vw;
+	margin-left: 6.11vw;
+}
+.novel-lake .product-description-tommy{
+	top: 0;
+	left: 22.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-tommy{
+	height: 45vw;
+	margin-top: 39vw;
+}
+/*/ alessia /*/
+.novel-lake .product-alessia{
+	margin-top: 10vw;
+}
+.novel-lake .product-alessia .img-container{
+	width: 29.16vw;
+	height: 14.72vw;
+	margin-left: -0.8vw;
+}
+.novel-lake .product-description-alessia{
+	top: 0;
+	left: 28%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-alessia{
+	height: 30vw;
+	margin-top: 29.5vw;
+}
+/*/ aurora /*/
+.novel-lake .product-aurora{
+	height: 1px;
+	margin-top: 6.66vw;
+}
+.novel-lake .product-description-aurora{
+	top: 0;
+	left: 12.5%;
+}
+.novel-lake .product-rail-aurora{
+	height: 36.5vw;
+	margin-top: 13vw;
+}
+/*/ lisa /*/
+.novel-lake .product-lisa{
+	margin-top: -5vw;
+}
+.novel-lake .product-lisa .img-container{
+	width: 14.72vw;
+	height: 17.22vw;
+	margin-left: 5.55vw;
+}
+.novel-lake .product-description-lisa{
+	top: 0;
+	left: 37.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-lisa{
+	height: 40vw;
+	margin-top: 33vw;
+}
+
+
+
+/*/ gioconda /*/
+.novel-lake .product-gioconda{
+	margin-top: 29vw;
+}
+.novel-lake .product-gioconda .img-container{
+	width: 14.72vw;
+	height: 16vw;
+	margin-left: 5.55vw;
+}
+.novel-lake .product-description-gioconda{
+	top: 0;
+	left: 37.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-gioconda{
+	height: 55vw;
+	margin-top: 21vw;
+}
+/*/ manuela /*/
+.novel-lake .product-manuela{
+	margin-top: 16.1vw;
+}
+.novel-lake .product-manuela .img-container{
+	width: 15vw;
+	height: 33vw;
+	margin-left: 5.55vw;
+}
+.novel-lake .product-description-manuela{
+	top: 0;
+	left: 37.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-manuela{
+	height: 42vw;
+	margin-top: 21vw;
+}
+/*/ egidio /*/
+.novel-lake .product-egidio{
+	margin-top: 27vw;
+}
+.novel-lake .product-egidio .img-container{
+	width: 18vw;
+	height: 14vw;
+	margin-left: 1vw;
+}
+.novel-lake .product-description-egidio{
+	top: 0;
+	left: 37.5%;
+	
+	-webkit-transform: translate(0%, -120%);
+	-moz-transform: translate(0%, -120%);
+	-ms-transform: translate(0%, -120%);
+	-o-transform: translate(0%, -120%);
+	transform: translate(0%, -120%);
+}
+.novel-lake .product-rail-egidio{
+	height: 47vw;
+	margin-top: 32vw;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
