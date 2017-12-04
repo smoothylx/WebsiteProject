@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3071391, 2015-08-06T03:28:02-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: DidotLTStd-Bold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/didot/lt-std-bold/
+ * Copyright: Copyright &#x00A9; 1992, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3071391
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2edd9f");
+
+  
+@font-face {
+	font-family: 'DidotLTStd-Bold';
+	src: url('../fonts/2EDD9F_0_0.eot');
+	src: url('../fonts/2EDD9F_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EDD9F_0_0.woff2') format('woff2'),url('../fonts/2EDD9F_0_0.woff') format('woff'),url('../fonts/2EDD9F_0_0.ttf') format('truetype');
+}
+ 
+
+@font-face{
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'DidotItalic';
+	src: url('../fonts/Didot-HTF-L96-Light-Ital.eot');
+	src: url('../fonts/Didot-HTF-L96-Light-Ital.woff') format('woff'), url('../fonts/Didot-HTF-L96-Light-Ital.ttf') format('truetype');
+}

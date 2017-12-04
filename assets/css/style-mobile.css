@@ -1,0 +1,151 @@
+
+
+/*/ SWITCH VOLUME /*/
+body.mobile .sound-switcher{
+	display: none;
+}
+
+
+
+
+/*/ BLOCCO PRODUCT /*/
+body.mobile .novel-page .product .product-description img{
+	width: 8vw;
+}
+body.mobile .novel-page .product .product-description h3{
+	font-size: 1.9vw;
+	line-height: 1.6vw;
+	white-space: nowrap;
+}
+body.mobile .novel-page .product .product-description h4{
+	font-size: 1.6vw;
+}
+
+
+
+
+/*/ FIX INTRO SECTION /*/
+@media (max-width: 767px) {
+	
+	body.mobile .intro-nav-dot{
+		font-size: 5vh;
+		line-height: 11vh;
+	}
+	
+	body.mobile .preview-novel-wrapper .preview-novel-content .preview-novel-scroll{
+		width: 8vh;
+		height: 8vh;
+	}
+	body.mobile .cerchio-arrow{
+		width: 8vh;
+		height: 8vh;
+	}
+	body.mobile .section-intro .cerchio-arrow{
+		bottom: 5vw;
+	}
+}
+
+
+
+
+/*/ FIX GENERAL NOVEL /*/
+
+/*/ tablet /*/
+@media (max-width: 1500px){
+	
+	/*/ piccoli fix al render dei dot /*/
+	body.mobile .intro-nav-dot.dot-lake{
+		left: 7%;
+		top: 25%;
+	}
+	body.mobile .intro-nav-dot.dot-garden{
+		left: 93%;
+		top: 25%;
+	}
+	body.mobile .intro-nav-dot.dot-eyes{
+		left: 50%;
+		top: 100%;
+	}
+	
+	body.mobile .intro-nav-dot .cerchio-closer{
+		-webkit-box-shadow: inset 0px 0px 0px 2px #616161;
+		-moz-box-shadow: inset 0px 0px 0px 2px #616161;
+		-ms-box-shadow: inset 0px 0px 0px 2px #616161;
+		-o-box-shadow: inset 0px 0px 0px 2px #616161;
+		box-shadow: inset 0px 0px 0px 2px #616161;
+	}
+	
+	body.mobile .preloader-novel-wrapper .novel-circle-spinner{
+		width: calc(92% - 5px);
+		height: calc(92% - 5px);
+	}
+	body.mobile .preloader-novel-wrapper .novel-circle-spinner #spinner-circle-novel{
+		stroke-width: 2;
+	}
+}
+
+
+
+/*/ smartphone /*/
+@media (max-width: 767px){
+	
+	body.mobile .preloader-novel-wrapper .novel-circle-spinner{
+		width: calc(92% - 5px);
+		height: calc(92% - 5px);
+	}
+	body.mobile .preloader-novel-wrapper .novel-circle-spinner #spinner-circle-novel{
+		stroke-width: 4;
+	}
+	
+	body.mobile .novel-page .header{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+/*/ FIX PAGINA GARDEN /*/
+
+
+/*/ smarthpone /*/
+@media (max-width: 767px){
+	
+	body.mobile .novel-page.novel-garden .products-blocks-line{
+		height: 80% !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ FOOTER /*/
+body.mobile #fluid-footer-canvas{
+	pointer-events: none;
+}
+body.mobile .interactive-handle{
+	/*pointer-events: none;*/
+}
+body.mobile .interactive-handle .novel-link{
+	/*pointer-events: auto;*/
+	opacity: 1 !important;
+}
+
+
+
+
+
+

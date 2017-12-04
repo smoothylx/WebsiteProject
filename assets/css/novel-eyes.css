@@ -1,0 +1,335 @@
+
+
+
+/*/ HEADER /*/
+.novel-page.novel-eyes .top-header .image-strip-container{
+	background-color: #BC8278;
+}
+.novel-page.novel-eyes .header .header-line:nth-child(odd){
+	background-color: #C4968E;
+}
+.novel-page.novel-eyes .header .header-line:nth-child(even){
+	background-color: #BC8278;
+}
+
+
+/*/ MAIN IMAGE /*/
+
+
+/*/ PRODUCTS /*/
+.novel-page.novel-eyes .product-description{
+	position: static;
+	padding-left: 1.1vw;
+}
+/*/ dafne sedia 1 /*/
+.novel-page.novel-eyes .product-dafne-sedia-1{
+	margin-top: 15.5vw;
+}
+.novel-page.novel-eyes .product-dafne-sedia-1 .product-description{
+	text-align: right;
+	padding: 0 1.1vw 0 0;
+}
+.novel-page.novel-eyes .product-rail-dafne-sedia-1{
+	height: 40.3vw;
+    margin-top: 39.8vw;
+}
+/*/ dafne tavolo /*/
+.novel-page.novel-eyes .product-dafne-tavolo{
+	margin-top: 5.5vw;
+	text-align: center;
+	padding: 0 3px;
+}
+.novel-page.novel-eyes .product-dafne-tavolo .product-description{
+	background: #e6e6e6;
+	padding: 1vw 0 0.5vw 0;
+}
+.novel-page.novel-eyes .product-rail-dafne-tavolo{
+	height: 20.1vw;
+    margin-top: 37.5vw;
+}
+/*/ dafne sedia 2 /*/
+.novel-page.novel-eyes .product-dafne-sedia-2{
+	margin-top: 10vw;
+}
+.novel-page.novel-eyes .product-rail-dafne-sedia-2{
+	height: 32.7vw;
+    margin-top: 42vw;
+}
+
+
+
+
+
+
+
+
+/*/ PRODUCTS BLOCK /*/
+.novel-page.novel-eyes .products-line{
+	top: 0;
+	left: 50%;
+	width: 1px;
+	z-index: 9;
+	height: 100%;
+	margin-left: -1px;
+	position: absolute;
+	background-color: #BFBFBF;
+}
+.novel-page.novel-eyes .products-block-1{
+	margin-top: 11.11vw;
+}
+.novel-page.novel-eyes .products-block-2{
+	margin-top: 2.75vw;
+}
+.novel-page.novel-eyes .products-block-3{
+}
+
+
+
+.novel-page.novel-eyes .products-block-text{
+	z-index: 10;
+	font-size: 2.66vw;
+	line-height: 2.3vw;
+	position: relative;
+	pointer-event: none;
+}
+
+
+
+
+
+
+/*/ PRODUCT DISCOVER /*/
+.novel-page.novel-eyes .products-block-discover{
+	cursor: pointer;
+	position: relative;
+}
+.novel-page.novel-eyes .products-block-discover.open .img-b{
+	height: 100%;
+}
+.novel-page.novel-eyes .products-block-discover .img-b{
+	left: 0;
+	bottom: 0;
+	height: 0%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	
+	-webkit-transition: all 1000ms 800ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+   	-moz-transition: all 1000ms 800ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+	-ms-transition: all 1000ms 800ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+	-o-transition: all 1000ms 800ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+	transition: all 1000ms 800ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+}
+
+
+
+
+/*/ PARTICLES /*/
+.novel-page.novel-eyes .particles{
+	height: 38.88vw;
+	position: relative;
+	background: #E6E6E6;
+}
+.novel-page.novel-eyes .particles .sfumatura-particles{
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	top: -10.93vw;
+	height: 10.41vw;
+	position: absolute;
+	pointer-events: none;
+	background-size: contain;
+	background-repeat: repeat;
+	background-position: top left;
+	background-image: url('../imgs/eyes/sfumatura-particles.png');
+}
+.novel-page.novel-eyes .particles .sketch{
+	top: -10vw;
+	width: 100%;
+	position: absolute;
+}
+body.mobile .novel-page.novel-eyes .particles .sketch{
+	pointer-events: none;
+}
+
+
+
+/*/ GUFO /*/
+.novel-page.novel-eyes .gufo-wrapper{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+	pointer-events: none;
+}
+.novel-page.novel-eyes .gufo-container{
+	z-index: 999;
+	padding: 0 4.44vw;
+	position: relative;
+}
+.novel-page.novel-eyes .gufo-container img{
+	width: 100%
+}
+
+
+
+/*/ PRODUCTS SIMPLE /*/
+.novel-page.novel-eyes .products-simple{
+	background: #FFFFFF;
+}
+
+.novel-page.novel-eyes .products-simple .products-line-simple-start{
+	top: 0;
+	left: 50%;
+	width: 1px;
+	z-index: 9;
+	height: 9.4vw;
+	margin-left: -1px;
+	position: absolute;
+	background-color: #BFBFBF;
+}
+.novel-page.novel-eyes .products-simple .frame-wrapper{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 1.11vw;
+	position: absolute;
+	pointer-events: none;
+}
+.novel-page.novel-eyes .products-simple .frame{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.novel-page.novel-eyes .products-simple .frame-side{
+	position: absolute;
+	background-color: #BFBFBF;
+}
+.novel-page.novel-eyes .products-simple .frame-side.horizontal{
+	width: 100%;
+	height: 1px;
+}
+.novel-page.novel-eyes .products-simple .frame-side.vertical{
+	width: 1px;
+	height: 100%;
+}
+.novel-page.novel-eyes .products-simple .frame-side.top{
+	top: 0;
+}
+.novel-page.novel-eyes .products-simple .frame-side.right{
+	right: 0;
+}
+.novel-page.novel-eyes .products-simple .frame-side.bottom{
+	bottom: 0;
+}
+.novel-page.novel-eyes .products-simple .frame-side.left{
+	left: 0;
+}
+
+
+/*/ OLD FISH /*/
+.novel-page.novel-eyes .oldfish{
+	width: 82vw;
+	height: 42.5vw;
+	margin-top: 8.33vw;
+	margin-bottom: 8.33vw;
+}
+body.mobile .novel-page.novel-eyes .oldfish{
+	pointer-events: none;
+}
+.novel-page.novel-eyes .products-block-4 .tilt{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.novel-page.novel-eyes .oldfish-wrapper{
+	position: relative;
+}
+.novel-page.novel-eyes .oldfish-wrapper .start-line{
+	width: 1px;
+	z-index: 1;
+	top: 8.33vw;
+	left: 8.33vw;
+	height: 1.2vw;
+	position: absolute;
+	background-color: #BFBFBF;
+}
+
+
+/*/ PRODUCTS BOTTOM /*/
+.novel-page.novel-eyes .products-bottom{
+	padding-top: 8.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-line-simple-bottom{
+	top: 0;
+	width: 1px;
+	z-index: 0;
+	position: absolute;
+	background-color: #BFBFBF;
+	height: calc(100% - 70vw);
+}
+.novel-page.novel-eyes .products-bottom .products-line-simple-end{
+	top: 0;
+	width: 1px;
+	z-index: 0;
+	height: 70vw;
+	position: absolute;
+	background-color: #BFBFBF;
+}
+.novel-page.novel-eyes .products-bottom .products-block-5{
+	margin-top: 8.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-6{
+	margin-top: 8.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-8{
+	margin-top: 8.33vw;
+	padding-top: 3.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-9{
+	margin-top: 8.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-10{
+	margin-top: 8.33vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-8 .product{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5vw;
+	background: #FFFFFF;
+	padding: 1vw 0 0.5vw 0;
+}
+.novel-page.novel-eyes .products-bottom .products-block-8 .product .product-description{
+	padding: 0;
+}
+
+
+
+.novel-page.novel-eyes .products-bottom .products-block-11{
+	margin-top: 22vw;
+}
+.novel-page.novel-eyes .products-bottom .products-block-11 .product{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5vw;
+	background: #FFFFFF;
+	padding: 1vw 0 0.5vw 0;
+}
+.novel-page.novel-eyes .products-bottom .products-block-11 .product .product-description{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
